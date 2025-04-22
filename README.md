@@ -52,11 +52,14 @@ Yes, just add each IP on a new line in the settings page.
 
 ## Screenshots
 
-1. **Admin interface to manage allowed IPs**
-   ![Settings page showing allowed IPs](https://github.com/anupamsahoo/Restrict-Admin-by-IP/blob/main/assets/screenshot-1.jpg)
+**Admin interface to manage allowed IPs**
+![Settings page showing allowed IPs](https://github.com/anupamsahoo/Restrict-Admin-by-IP/blob/main/assets/screenshot-1.jpg)
 
-2. **Access denied message when not whitelisted**
-   ![403 error with denied IP message](https://github.com/anupamsahoo/Restrict-Admin-by-IP/blob/main/assets/screenshot-2.jpg)
+**Access denied message when not whitelisted**
+![403 error with denied IP message](https://github.com/anupamsahoo/Restrict-Admin-by-IP/blob/main/assets/screenshot-3.png)
+
+**Menu Item**
+![403 error with denied IP message](https://github.com/anupamsahoo/Restrict-Admin-by-IP/blob/main/assets/screenshot-2.jpg)
 
 ## Changelog
 
