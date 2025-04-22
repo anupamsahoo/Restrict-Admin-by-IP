@@ -61,14 +61,15 @@ Yes, just add each IP on a new line in the settings page.
 **Menu Item**
 ![403 error with denied IP message](https://github.com/anupamsahoo/Restrict-Admin-by-IP/blob/main/assets/screenshot-2.png)
 
-## Changelog
+### v1.0.1
 
-v1.0.0
+- Fixed: Success message now shows properly after saving IP addresses.
 
-- Initial release
-- Admin UI for IPs
-- Auto-detect installing IP
-- Session-based success notifications
+### v1.0.0
+
+- Initial release.
+- Added admin UI for managing allowed IPs.
+- Automatically detects and adds the installing IP.
 
 ## License
 

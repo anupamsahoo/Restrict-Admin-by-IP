@@ -5,11 +5,11 @@ Tags: security, admin, login, ip restriction, access control
 Requires at least: 5.2
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Restrict access to wp-login.php and wp-admin to specific IP addresses. Includes an easy-to-use admin UI to manage allowed IPs and auto-add your current IP.
+Restrict wp-login.php and wp-admin access to specific IPs with an admin UI and auto-add of your current IP.
 
 == Description ==
 
@@ -56,13 +56,20 @@ Yes, just add each IP on a new line in the settings page.
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed: Success message now correctly appears after saving IPs
+* Improved input validation and escaping
+* Minor compatibility fixes
+
 = 1.0.0 =
 * Initial release
 * Admin UI for IPs
 * Auto-detect installing IP
-* Session-based success notifications
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Improved security and usability with flash success message fix and validation improvements.
 
 = 1.0.0 =
 Initial release — restrict access to wp-admin and login page based on allowed IPs.

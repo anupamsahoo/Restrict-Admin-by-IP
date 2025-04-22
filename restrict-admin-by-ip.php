@@ -3,7 +3,7 @@
  * Plugin Name: Restrict Admin by IP
  * Plugin URI: https://github.com/anupamsahoo/Restrict-Admin-by-IP
  * Description: Restricts access to wp-login.php and wp-admin to specific IP addresses. Includes admin UI.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Anupam Sahoo
  * Author URI: https://digitalhubz.com/
  * License: GPLv2 or later

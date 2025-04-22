@@ -15,7 +15,8 @@ function radmin_settings_page() {
         return;
     }
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['radmin_ips'])) {
+    if ( isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['radmin_ips']) ) {
+
         check_admin_referer('radmin_save_ips');
 
         $raw_ips = sanitize_textarea_field( wp_unslash( $_POST['radmin_ips'] ) );
